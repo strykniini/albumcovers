@@ -1,3 +1,4 @@
+<style>
 * {
   box-sizing: border-box;
 }
@@ -25,3 +26,5 @@ body {
   padding: 1em;
   inset: 0% 0% auto;
 }
+
+</style>
