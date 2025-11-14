@@ -18,15 +18,17 @@ body {
 }
 
 .nav {
-  font-family: Arial;
   font-size: 20px;
-  color: black;
   width: 100%;
   position: fixed;
   padding: 1em;
   inset: 0% 0% auto;
 }
 
-.nav :hover {
+.nav a {
+  color: black;
+}
+
+.nav a :hover {
   color: gray;
 }
