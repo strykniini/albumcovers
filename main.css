@@ -25,10 +25,11 @@ body {
   inset: 0% 0% auto;
 }
 
-.nav a {
+a:link {
   color: black;
+  underline
 }
 
-.nav a :hover {
+a:hover {
   color: gray;
 }
