@@ -9,15 +9,16 @@ body {
 
 .header {
   padding: 80px;
+  text-align: center;
 }
 
 .header h1 {
   font-family: Arial;
   font-size: 40px;
-  text-align: center;
 }
 
 .nav {
+  overflow: hidden;
   font-size: 20px;
   width: 100%;
   position: fixed;
