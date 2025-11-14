@@ -20,7 +20,7 @@ body {
 .nav {
   font-family: Arial;
   font-size: 20px;
-  text-color: black;
+  color: black;
   width: 100%;
   position: fixed;
   padding: 1em;
@@ -28,5 +28,5 @@ body {
 }
 
 .nav :hover {
-  text-color: gray;
+  color: gray;
 }
