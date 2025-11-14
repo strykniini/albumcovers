@@ -1,2 +1,2 @@
-# albumcovers
-project woop
+# Album Covers
+Projekti koulua varten :)
