@@ -25,7 +25,7 @@ body {
   inset: 0% 0% auto;
 }
 
-.nav a:link {
+.nav a {
   color: black;
   text-decoration: none;
 }
