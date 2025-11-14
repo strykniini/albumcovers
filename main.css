@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial;
 }
 
 .header {
   padding: 80px;
+  text-algin: center;
 }
 
 .header h1 {
