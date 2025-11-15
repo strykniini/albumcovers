@@ -1,3 +1,5 @@
+<!-- bruh i have zero clue what is happening here -->
+
 import { FlickeringGrid } from "@/registry/magicui/flickering-grid"
 
 export function FlickeringGridDemo() {
