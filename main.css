@@ -18,6 +18,11 @@ body {
   font-size: 40px;
 }
 
+.header h2 {
+  font-family: Arial;
+  font-size: 25px;
+}
+
 #navbar {
   background-color: #333;
   position: fixed;
