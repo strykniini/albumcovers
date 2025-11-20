@@ -16,16 +16,11 @@
       <h1>High quality album covers</h1>
       <h2>Bringing together album covers in the highest quality </h2>
     </div>
-
-    <div id="navbar"></div>
-
-    <script>
-      fetch("nav.html")
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById("nav").innerHTML = data;
-        });
-    </script>
+    
+    <div id="navbar">
+      <a href="/albumcovers/">home</a>
+      <a href="/albumcovers/about">about</a>
+    </div>
     
     <div style="padding:15px 15px 2500px;font-size:30px">
     <p>
