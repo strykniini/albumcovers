@@ -8,3 +8,19 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
   }
 }
+
+document.getElementById("loginLink").addEventListener("click", function(e) {
+  e.preventDefault();
+  document.getElementById("loginPopup").style.display = "flex";
+});
+
+document.getElementById("closePopup").addEventListener("click", function() {
+  document.getElementById("loginPopup").style.display = "none";
+});
+
+// Optional: close when clicking outside the box
+window.addEventListener("click", function(e) {
+  if (e.target === document.getElementById("loginPopup")) {
+    document.getElementById("loginPopup").style.display = "none";
+  }
+});
